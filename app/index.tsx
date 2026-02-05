@@ -1,11 +1,11 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import {
-    FlatList,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { Sura, suraList } from "../lib/sura";
 
@@ -21,18 +21,18 @@ export default function Home() {
       }
     >
       <View style={styles.numberContainer}>
-        <Text style={styles.numberText}>
-          {convertToBanglaNumber(item.surahNumber || item.id)}
-        </Text>
+        <Text style={styles.numberText}>{convertToBanglaNumber(item.id)}</Text>
       </View>
       <View style={styles.infoContainer}>
         <Text style={styles.surahName}>{item.nameBangla}</Text>
         <View style={styles.subInfo}>
+          <Text style={styles.subText}>
+            {convertToBanglaNumber(item.surahNumber)}
+          </Text>
           <Ionicons
             name="cube-outline"
             size={14}
             color="#666"
-            style={{ marginRight: 4 }}
           />
           <Text style={styles.subText}>
             {convertToBanglaNumber(item.totalAyah)}
@@ -71,7 +71,7 @@ const convertToBanglaNumber = (num: number | null) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EFE8D8",
+    backgroundColor: "#efebd8ff",
   },
   listContent: {
     padding: 16,
@@ -101,12 +101,13 @@ const styles = StyleSheet.create({
   surahName: {
     fontSize: 18,
     color: "#000",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
     marginBottom: 4,
   },
   subInfo: {
     flexDirection: "row",
     alignItems: "center",
+    gap: 6,
   },
   subText: {
     fontSize: 14,

@@ -50,7 +50,7 @@ export default function RootLayout() {
         <Stack.Screen
           name="index"
           options={{
-            title: "আল কুরআন",
+            title: "ফাতিহা",
             headerTitleAlign: "center",
             headerTitleStyle: { fontFamily: "Galada_400Regular", fontSize: 24 },
           }}
