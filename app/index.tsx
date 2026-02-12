@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   surahName: {
     fontSize: 18,
     color: "#000",
-    fontFamily: "Amiri_400Regular",
+    fontFamily: "Galada_400Regular",
     marginBottom: 4,
   },
   subInfo: {
