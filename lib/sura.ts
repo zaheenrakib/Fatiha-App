@@ -933,4 +933,4 @@ export const suraList: Sura[] = [
       },
     ],
   }
-];
+]
