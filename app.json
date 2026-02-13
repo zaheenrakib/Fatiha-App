@@ -4,7 +4,7 @@
     "slug": "Fatiha",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/main.png",
+    "icon": "./assets/images/favicon.png",
     "scheme": "fatiha",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "foregroundImage": "./assets/images/favicon.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },

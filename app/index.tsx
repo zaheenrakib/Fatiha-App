@@ -1,11 +1,11 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
+    FlatList,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
 } from "react-native";
 import { Sura, suraList } from "../lib/sura";
 
@@ -29,11 +29,7 @@ export default function Home() {
           <Text style={styles.subText}>
             {convertToBanglaNumber(item.surahNumber)}
           </Text>
-          <Ionicons
-            name="cube-outline"
-            size={14}
-            color="#666"
-          />
+          <Ionicons name="cube-outline" size={14} color="#666" />
           <Text style={styles.subText}>
             {convertToBanglaNumber(item.totalAyah)}
           </Text>
@@ -92,7 +88,7 @@ const styles = StyleSheet.create({
   numberText: {
     fontSize: 18,
     color: "#333",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_700Bold",
   },
   infoContainer: {
     flex: 1,
@@ -101,7 +97,7 @@ const styles = StyleSheet.create({
   surahName: {
     fontSize: 18,
     color: "#000",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
     marginBottom: 4,
   },
   subInfo: {
@@ -112,6 +108,6 @@ const styles = StyleSheet.create({
   subText: {
     fontSize: 14,
     color: "#666",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
   },
 });

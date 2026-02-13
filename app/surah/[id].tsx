@@ -14,7 +14,7 @@ export default function SurahDetails() {
     if (surah) {
       navigation.setOptions({
         title: surah.nameBangla,
-        headerTitleStyle: { fontFamily: "Galada_400Regular", fontSize: 20 },
+        headerTitleStyle: { fontFamily: "Amiri_700Bold", fontSize: 20 },
       });
     }
   }, [surah, navigation]);
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 22,
     color: "#000",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_700Bold",
     marginBottom: 4,
   },
   headerArabicTitle: {
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
   headerSubtitle: {
     fontSize: 14,
     color: "#444",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
     marginBottom: 16,
   },
   bismillahContainer: {
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
   },
   ayahNumber: {
     fontSize: 14,
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
     color: "#444",
   },
   arabicText: {
@@ -186,13 +186,13 @@ const styles = StyleSheet.create({
   banglaPronunciation: {
     fontSize: 16,
     color: "#333",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
     marginBottom: 6,
   },
   banglaTranslation: {
     fontSize: 16,
     color: "#000",
-    fontFamily: "Galada_400Regular",
+    fontFamily: "Amiri_400Regular",
   },
   playerBar: {
     position: "absolute",

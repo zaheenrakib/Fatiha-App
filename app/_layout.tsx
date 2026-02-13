@@ -52,7 +52,7 @@ export default function RootLayout() {
           options={{
             title: "ফাতিহা",
             headerTitleAlign: "center",
-            headerTitleStyle: { fontFamily: "Galada_400Regular", fontSize: 24 },
+            headerTitleStyle: { fontFamily: "Amiri_700Bold", fontSize: 24 },
           }}
         />
         <Stack.Screen
