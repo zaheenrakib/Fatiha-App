@@ -1,5 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
+import { useState } from "react";
 import {
     FlatList,
     StyleSheet,
@@ -7,10 +8,14 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
-import { Sura, suraList } from "../lib/sura";
+import { suraList as ojifaList } from "../lib/ojifa";
+import { Sura, suraList as quranSuraList } from "../lib/sura";
 
 export default function Home() {
   const router = useRouter();
+  const [activeTab, setActiveTab] = useState<"surah" | "ojifa">("surah");
+
+  const suraData = activeTab === "surah" ? quranSuraList : ojifaList;
 
   const renderItem = ({ item }: { item: Sura }) => (
     <TouchableOpacity
@@ -26,10 +31,14 @@ export default function Home() {
       <View style={styles.infoContainer}>
         <Text style={styles.surahName}>{item.nameBangla}</Text>
         <View style={styles.subInfo}>
-          <Text style={styles.subText}>
-            {convertToBanglaNumber(item.surahNumber)}
-          </Text>
-          <Ionicons name="cube-outline" size={14} color="#666" />
+          {item.surahNumber && (
+            <>
+              <Text style={styles.subText}>
+                {convertToBanglaNumber(item.surahNumber)}
+              </Text>
+              <Ionicons name="cube-outline" size={14} color="#666" />
+            </>
+          )}
           <Text style={styles.subText}>
             {convertToBanglaNumber(item.totalAyah)}
           </Text>
@@ -43,8 +52,36 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.tabContainer}>
+        <TouchableOpacity
+          style={[styles.tab, activeTab === "surah" && styles.activeTab]}
+          onPress={() => setActiveTab("surah")}
+        >
+          <Text
+            style={[
+              styles.tabText,
+              activeTab === "surah" && styles.activeTabText,
+            ]}
+          >
+            সূরা
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={[styles.tab, activeTab === "ojifa" && styles.activeTab]}
+          onPress={() => setActiveTab("ojifa")}
+        >
+          <Text
+            style={[
+              styles.tabText,
+              activeTab === "ojifa" && styles.activeTabText,
+            ]}
+          >
+            আজিফা
+          </Text>
+        </TouchableOpacity>
+      </View>
       <FlatList
-        data={suraList}
+        data={suraData}
         keyExtractor={(item) => item.id.toString()}
         renderItem={renderItem}
         contentContainerStyle={styles.listContent}
@@ -68,6 +105,31 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#efebd8ff",
+  },
+  tabContainer: {
+    flexDirection: "row",
+    paddingHorizontal: 16,
+    paddingTop: 8,
+    backgroundColor: "#efebd8ff",
+    borderBottomWidth: 1,
+    borderBottomColor: "#D8CFC0",
+  },
+  tab: {
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    borderBottomWidth: 3,
+    borderBottomColor: "transparent",
+  },
+  activeTab: {
+    borderBottomColor: "#8B4513", // Earthy brown for active state
+  },
+  tabText: {
+    fontSize: 18,
+    color: "#666",
+    fontFamily: "Amiri_700Bold",
+  },
+  activeTabText: {
+    color: "#000",
   },
   listContent: {
     padding: 16,

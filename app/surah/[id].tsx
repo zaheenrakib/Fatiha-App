@@ -2,13 +2,15 @@ import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect } from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
-import { Ayah, suraList } from "../../lib/sura";
+import { suraList as ojifaList } from "../../lib/ojifa";
+import { Ayah, suraList as quranSuraList } from "../../lib/sura";
 
 export default function SurahDetails() {
   const { id } = useLocalSearchParams();
   const navigation = useNavigation();
 
-  const surah = suraList.find((s) => s.id === Number(id));
+  const combinedSuraList = [...quranSuraList, ...ojifaList];
+  const surah = combinedSuraList.find((s) => s.id === Number(id));
 
   useEffect(() => {
     if (surah) {
