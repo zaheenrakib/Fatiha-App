@@ -230,5 +230,5 @@ export const suraList: Sura[] = [
         banglaMeaning: "",
       },
     ],
-  },
+  }
 ];
