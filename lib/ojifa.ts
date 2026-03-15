@@ -12,7 +12,7 @@ export interface Sura {
   nameBangla: string;
   nameArabic: string;
   totalAyah: number;
-  revelation: "Makki" | "Madani" | "Other";
+  revelation: "Other";
   ayahs: Ayah[];
 }
 
