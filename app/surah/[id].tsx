@@ -82,12 +82,12 @@ export default function SurahDetails() {
         showsVerticalScrollIndicator={false}
       />
       {/* Player Bar Placeholder */}
-      <View style={styles.playerBar}>
+      {/* <View style={styles.playerBar}>
         <Ionicons name="play-skip-back" size={24} color="#666" />
         <Ionicons name="play" size={32} color="#000" />
         <Ionicons name="square" size={18} color="#666" />
         <Ionicons name="play-skip-forward" size={24} color="#666" />
-      </View>
+      </View> */}
     </View>
   );
 }

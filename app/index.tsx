@@ -108,6 +108,7 @@ const styles = StyleSheet.create({
   },
   tabContainer: {
     flexDirection: "row",
+    justifyContent: "space-between",
     paddingHorizontal: 16,
     paddingTop: 8,
     backgroundColor: "#efebd8ff",
