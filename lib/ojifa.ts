@@ -18,7 +18,7 @@ export interface Sura {
 
 export const suraList: Sura[] = [
   {
-    id: 14,
+    id: 18,
     suraKey: "fatehar_ojifa",
     surahNumber: null,
     nameBangla: "ফাতেহার আজিফা",

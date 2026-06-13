@@ -28,6 +28,12 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ",
         banglaUccaron: "ইয়াআইয়ুহাল মুঝঝাম্মিল",
@@ -182,6 +188,12 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "يسٓ",
         banglaUccaron: "ইয়া-ছীন।",
@@ -284,6 +296,12 @@ export const suraList: Sura[] = [
     totalAyah: 27,
     revelation: "Madani",
     ayahs: [
+      {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
       {
         ayahNumber: 1,
         arabic: "الرَّحْمَٰنُ",
@@ -470,6 +488,12 @@ export const suraList: Sura[] = [
     revelation: "Madani",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 22,
         arabic:
           "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ ۖ هُوَ الرَّحْمَٰنُ الرَّحِيمُ",
@@ -509,6 +533,12 @@ export const suraList: Sura[] = [
     revelation: "Madani",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 255,
         arabic:
           "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
@@ -529,6 +559,12 @@ export const suraList: Sura[] = [
     totalAyah: 11,
     revelation: "Makki",
     ayahs: [
+      {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
       {
         ayahNumber: 1,
         arabic: "وَالضُّحَىٰ",
@@ -610,6 +646,12 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
         banglaUccaron: "আলাম নাশরাহ লাকা সাদরাক",
@@ -670,6 +712,12 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
         banglaUccaron: "কুল ইয়া আইয়্যুহাল কাফিরূন",
@@ -718,6 +766,12 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "قُلْ هُوَ اللَّهُ أَحَدٌ",
         banglaUccaron: "কুল হু'আল্লাহু আহাদ",
@@ -753,6 +807,12 @@ export const suraList: Sura[] = [
     totalAyah: 5,
     revelation: "Makki",
     ayahs: [
+      {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
       {
         ayahNumber: 1,
         arabic: "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
@@ -795,6 +855,12 @@ export const suraList: Sura[] = [
     totalAyah: 6,
     revelation: "Makki",
     ayahs: [
+      {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
       {
         ayahNumber: 1,
         arabic: "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
@@ -844,7 +910,7 @@ export const suraList: Sura[] = [
     revelation: "Makki",
     ayahs: [
       {
-        ayahNumber: 1,
+        ayahNumber: 0,
         arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
         banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
@@ -902,6 +968,12 @@ export const suraList: Sura[] = [
     revelation: "Madani",
     ayahs: [
       {
+        ayahNumber: 0,
+        arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+        banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
+      },
+      {
         ayahNumber: 1,
         arabic: "الٓمٓ",
         banglaUccaron: "আলিফ লাম মীম",
@@ -953,10 +1025,10 @@ export const suraList: Sura[] = [
     revelation: "Other",
     ayahs: [
       {
-        ayahNumber: 1,
+        ayahNumber: 0,
         arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
-        banglaMeaning: "",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
       },
       {
         ayahNumber: 2,
@@ -964,21 +1036,21 @@ export const suraList: Sura[] = [
           "نَصْرٌ مِّنَ اللَّهِ وَفَتْحٌ قَرِيبٌ ۗ وَبَشِّرِ الْمُؤْمِنِينَ",
         banglaUccaron:
           "নাছরুম মিনাল্লাহি ফাতহুন কারিব ওয়া বাশশিরিল মু’মিনিনা।",
-        banglaMeaning: "",
+        banglaMeaning: "আল্লাহর পক্ষ থেকে সাহায্য এবং আসন্ন বিজয়; আর মুমিনদেরকে সুসংবাদ দাও।",
       },
       {
         ayahNumber: 3,
         arabic: "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ",
         banglaUccaron: "ওয়ামা আরছালনাকা ইল্লা রাহমাতাল্লিল আ-লামিন।",
-        banglaMeaning: "",
+        banglaMeaning: "আমি আপনাকে (হে মুহাম্মদ) বিশ্ববাসীর জন্য রহমতস্বরূপই প্রেরণ করেছি।",
       },
       {
         ayahNumber: 4,
         arabic:
-          "فَآتَاهُمُ اللَّهُ ثَوَابَ الدُّنْيَا وَحُসْنَ ثَوَابِ الْآخِرَةِ ۗ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
+          "فَآتَاهُمُ اللَّهُ ثَوَابَ الدُّنْيَا وَحُسْنَ ثَوَابِ الْآخِرَةِ ۗ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
         banglaUccaron:
           "ফাআ-তা হুমুল্লা-হু সাওয়াবাত দুনিয়া ওয়া হুসনু সাওয়াবিল আখিরাতি ওয়াল্লাহু ইউহিব্বুল মু’ছিনিন।",
-        banglaMeaning: "",
+        banglaMeaning: "অতঃপর আল্লাহ তাদেরকে দুনিয়ার সওয়াব এবং আখেরাতের উত্তম সওয়াব দান করেছেন। আর আল্লাহ সৎকর্মশীলদের ভালোবাসেন।",
       },
     ],
   },
@@ -992,10 +1064,10 @@ export const suraList: Sura[] = [
     revelation: "Other",
     ayahs: [
       {
-        ayahNumber: 1,
+        ayahNumber: 0,
         arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
-        banglaMeaning: "",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
       },
       {
         ayahNumber: 2,
@@ -1003,7 +1075,7 @@ export const suraList: Sura[] = [
           "مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكিন رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ ۗ وَكَانَ اللَّهُ بِكُلِّ شَيْءٍ عَلِيمًا",
         banglaUccaron:
           "মাকানা মোহাম্মদুন আবা আহাদিম মির রিজালিকুম ওয়া লাকির রাসুলুল্লাহি ওয়া খাতামান নাবীয়্যিন ওয়া কানাল্লাহু বিকুল্লি সাইয়িন আলিমা।",
-        banglaMeaning: "",
+        banglaMeaning: "মুহাম্মদ (সা.) তোমাদের কোন পুরুষের পিতা নন, বরং তিনি আল্লাহর রাসূল এবং শেষ নবী। আর আল্লাহ সর্ববিষয়ে সর্বজ্ঞ (সবকিছু জানেন)।",
       },
       {
         ayahNumber: 3,
@@ -1011,7 +1083,7 @@ export const suraList: Sura[] = [
           "إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا",
         banglaUccaron:
           "ইন্নাল্লাহা ওয়া মালাইকাতাহু ইউছাল্লুনা আলান নাবীয়্যিন ইয়া-আইয়ুহাল্লাজিনা আমানুসাল্লু আলাইহি ওয়া সাল্লিমু তাছলিমা।",
-        banglaMeaning: "",
+        banglaMeaning: "নিশ্চয়ই আল্লাহ ও তাঁর ফেরেশতাগণ নবীর প্রতি রহমত বর্ষণ করেন। হে মুমিনগণ! তোমরাও তাঁর প্রতি দরূদ ও যথাযথ সালাম পেশ করো।",
       },
     ],
   },
@@ -1026,10 +1098,10 @@ export const suraList: Sura[] = [
     revelation: "Other",
     ayahs: [
       {
-        ayahNumber: 1,
+        ayahNumber: 0,
         arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
-        banglaMeaning: "",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
       },
       {
         ayahNumber: 2,
@@ -1051,10 +1123,10 @@ export const suraList: Sura[] = [
     revelation: "Other",
     ayahs: [
       {
-        ayahNumber: 1,
+        ayahNumber: 0,
         arabic: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
         banglaUccaron: "বিসমিল্লাহির রাহমানির রাহীম",
-        banglaMeaning: "",
+        banglaMeaning: "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
       },
       {
         ayahNumber: 2,
