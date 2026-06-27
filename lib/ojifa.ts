@@ -21,7 +21,7 @@ export const suraList: Sura[] = [
     id: 18,
     suraKey: "fatehar_ojifa",
     surahNumber: null,
-    nameBangla: "ফাতেহার আজিফা",
+    nameBangla: "ফাতেহার ওজিফা",
     nameArabic: "فاتحة الوجيفة",
     totalAyah: 29,
     revelation: "Other",
